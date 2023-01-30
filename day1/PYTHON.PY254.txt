@@ -1,0 +1,15 @@
+X=int(input("Enter number:"))
+temp=X
+rev=0
+while(X>0):
+    dig=X%10
+    rev=rev*10+dig
+    X=X//10
+if(temp==rev):
+    print("true")
+else:
+    print("The number isn't a palindrome!")
+
+Enter number:
+6
+true
